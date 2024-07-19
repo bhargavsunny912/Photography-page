@@ -1,0 +1,57 @@
+body{
+    background-image: url("./photo.jpg");
+    background-size: cover;height: 580px;margin-left: 0px;
+}
+
+.sidebar{
+    width: 250px;height: 580px;
+    background-color:#2b2b2b;color: white;
+}
+#head{
+    color: black;text-align: center;font-size: 25px;
+    height: 50px;width: 98%;padding: 10px 0px 0px 5px;margin-bottom: 10px;
+}
+.div{
+    color: black;height: 50px;width: 100%;
+    font-size: 20px;margin:5px auto;
+}
+
+.div>span,i{color: white;}
+.div:hover{
+    box-shadow: 1px 5px 10px grey;
+}
+#head:hover{
+    box-shadow: 1px 5px 10px grey;
+}
+
+span,i{padding:10px 20px 0px 20px;font-size: 25px;}
+a>i{
+    padding-left: 5px;padding-right: 5px;
+    color:white;
+}
+a>i:hover{
+    opacity: 0.5;
+}
+.links{
+    margin: 80px 5px 2px 60px;
+}
+a{
+    text-decoration: none;color:white;
+}
+.wrong{
+    padding: 0px;color: black;
+}
+button{
+    margin-left: 30px;
+}
+
+.hide1{
+    visibility: hidden;
+}
+.fa-bars{
+    color: white;font-size: 40px;padding-left: 2px;margin-bottom: 5px;
+}
+
+.hide2{
+    margin-top: -60px;
+}
